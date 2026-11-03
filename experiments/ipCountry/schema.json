@@ -1,0 +1,23 @@
+[
+  {
+    "namespace": "ipCountry",
+    "functions": [
+      {
+        "name": "registerSearchTerm",
+        "type": "function",
+        "async": true,
+        "parameters": [],
+        "returns": {
+          "type": "object",
+          "properties": {
+            "ok": { "type": "boolean" },
+            "stage": { "type": "string", "optional": true },
+            "message": { "type": "string", "optional": true },
+            "stack": { "type": "string", "optional": true }
+          }
+        }
+      }
+    ]
+  }
+]
+

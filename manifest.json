@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "IP Address to Country Filter",
+  "description": "Adds a mail filter condition that matches the country of the originating public IP address.",
+  "version": "0.1.5",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "ipaddr2country@local.invalid",
+      "strict_min_version": "128.0"
+    }
+  },
+  "experiment_apis": {
+    "ipCountry": {
+      "schema": "experiments/ipCountry/schema.json",
+      "parent": {
+        "scopes": ["addon_parent"],
+        "script": "experiments/ipCountry/api.js",
+        "paths": [["ipCountry"]]
+      }
+    }
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
+

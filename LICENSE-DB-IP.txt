@@ -1,0 +1,10 @@
+This add-on's bundled IP country database is derived from DB-IP Lite.
+
+DB-IP Lite is licensed under the Creative Commons Attribution 4.0 International
+License (CC BY 4.0). Attribution:
+
+IP Geolocation by DB-IP (https://db-ip.com)
+
+License: https://creativecommons.org/licenses/by/4.0/
+Database download: https://db-ip.com/db/download/ip-to-country-lite
+
