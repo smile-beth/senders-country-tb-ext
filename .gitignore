@@ -1,0 +1,6 @@
+data/ip-country.json
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+
